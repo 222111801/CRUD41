@@ -9,7 +9,7 @@
     $name = $_POST["nombre"];
     $email = $_POST["correo"];
     $course = $_POST["curso"];
-    $pass = $_POST["password"];
+    $pass = $_POST["pass"];
     $id = $_POST["id"];
 
     $consulta = "UPDATE usuarios SET nombre = '" . $name . "', correo = '" . $email. "', curso = '" . $course . "', pass = '" . $pass . "' WHERE id = " . $id;

@@ -52,7 +52,7 @@
             <input type="text" name="curso" value="<?php echo $usuario[0]["curso"]; ?>"><br><br>
             
             <div>Contraseña</div>
-            <input type="text" name="password" value="<?php echo $usuario[0]["pass"]; ?>"><br><br>
+            <input type="text" name="pass" value="<?php echo $usuario[0]["pass"]; ?>"><br><br>
             
             <input type="hidden" name="id" value="<?php echo $usuario[0]["id"]; ?>">
             

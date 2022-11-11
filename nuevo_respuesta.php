@@ -9,7 +9,7 @@
     $name = $_POST["nombre"];
     $email = $_POST["correo"];
     $course = $_POST["curso"];
-    $pass = $_POST["password"];
+    $pass = $_POST["pass"];
 
     //Primer Paso - Generar la consulta
     $consulta = "INSERT INTO usuarios (nombre, correo, curso, pass) VALUES ('".$name."', '".$email."','".$course."','".$pass."')";
